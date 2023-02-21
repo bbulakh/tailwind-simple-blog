@@ -1,0 +1,11 @@
+# Global
+dist/
+
+# OS Generated
+.DS_Store*
+package-lock.json
+package.json
+node_modules/
+ehthumbs.db
+Thumbs.db
+*.swp
