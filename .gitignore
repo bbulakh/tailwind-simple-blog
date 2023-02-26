@@ -3,9 +3,9 @@ dist/
 
 # OS Generated
 .DS_Store*
-package-lock.json
-package.json
 node_modules/
+.npmrc
+package-lock.json
 ehthumbs.db
 Thumbs.db
 *.swp
