@@ -1,67 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/dist/css/tailwind-blog-73de20b61ffb3a22c8321d457735dcfa.css">
-    <title>AI Generated Blog</title>
-</head>
-<body>
-
+    <title>Simple Blog</title>
+  </head>
+  <body>
     <!-- header  -->
     <header class="relative">
+      <img
+        class="max-h-96 w-full object-cover contrast-50 filter"
+        src="https://i.pinimg.com/originals/13/8d/bf/138dbf61c1770c82f76c019421c594a9.jpg"
+        alt="Office image"
+      />
 
-        <img class="object-cover w-full max-h-96 filter contrast-50" src="https://i.pinimg.com/originals/13/8d/bf/138dbf61c1770c82f76c019421c594a9.jpg" alt="Office image">
-
-        <nav class="flex w-full absolute top-5 justify-between px-4 text-white">
-            <div class="">
-                <h2 class="font-bold">SIMPLE BLOG</h2>
-            </div>
-
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white sm:hidden cursor-pointer">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                </svg>                      
-            </div>
-
-            <div class="hidden md:flex gap-5 font-light">
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">SAMPLE POST</a>
-                <a href="#">CONTACT</a>
-            </div>
-        </nav>
-
-        <div class="w-full px-3 absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto">
-            <h1 class="text-3xl md:text-5xl text-center font-bold ">About me</h1>
-            <p class="text-center pt-3">That`s what I do</p>
+      <nav class="absolute top-5 flex w-full justify-between px-4 text-white">
+        <div class="">
+          <a href="blog.html" class="font-bold">SIMPLE BLOG</a>
         </div>
+
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-6 w-6 cursor-pointer text-white sm:hidden"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+
+        <div class="hidden gap-5 font-light md:flex">
+          <a href="blog.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="article.html">SAMPLE POST</a>
+          <a href="contacts.html">CONTACT</a>
+        </div>
+      </nav>
+
+      <div
+        class="absolute top-1/2 left-1/2 mx-auto w-full -translate-x-1/2 -translate-y-1/2 px-3 text-white"
+      >
+        <h1 class="text-center text-3xl font-bold md:text-5xl">About me</h1>
+        <p class="pt-3 text-center">That`s what I do</p>
+      </div>
     </header>
 
     <!-- info -->
 
-    <div class="max-w-xs sm:max-w-md mx-auto px-3 flex flex-col justify-center items-center my-10">
-
-        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum placeat odit, est eum dolorem esse totam iusto necessitatibus eligendi illo doloribus vero aperiam atque tempora repudiandae molestiae nemo distinctio quisquam!</p>
-        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum placeat odit, est eum dolorem esse totam iusto necessitatibus eligendi illo doloribus vero aperiam atque tempora repudiandae molestiae nemo distinctio quisquam!</p>
-        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum placeat odit, est eum dolorem esse totam iusto necessitatibus eligendi illo doloribus vero aperiam atque tempora repudiandae molestiae nemo distinctio quisquam!</p>
-
-      
+    <div
+      class="mx-auto my-10 flex max-w-xs flex-col items-center justify-center px-3 sm:max-w-md"
+    >
+      <p class="py-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum placeat
+        odit, est eum dolorem esse totam iusto necessitatibus eligendi illo
+        doloribus vero aperiam atque tempora repudiandae molestiae nemo
+        distinctio quisquam!
+      </p>
+      <p class="py-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum placeat
+        odit, est eum dolorem esse totam iusto necessitatibus eligendi illo
+        doloribus vero aperiam atque tempora repudiandae molestiae nemo
+        distinctio quisquam!
+      </p>
+      <p class="py-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum placeat
+        odit, est eum dolorem esse totam iusto necessitatibus eligendi illo
+        doloribus vero aperiam atque tempora repudiandae molestiae nemo
+        distinctio quisquam!
+      </p>
     </div>
 
     <!-- footer  -->
 
-    <footer class="flex flex-col justify-center bg-slate-50 py-10 border-t-2">
-        <div class="flex gap-3 justify-center pt-6">
-            <img class="w-9 h-9" src="https://cdn-icons-png.flaticon.com/512/2168/2168281.png" alt="facebook round logo">
-            <img class="w-9 h-9" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="instagram round logo">
-            <img class="w-9 h-9" src="https://cdn-icons-png.flaticon.com/512/3116/3116491.png" alt="Tik tok round logo">
-        </div>
+    <footer class="flex flex-col justify-center border-t-2 bg-slate-50 py-10">
+      <div class="flex justify-center gap-3 pt-6">
+        <img
+          class="h-9 w-9"
+          src="https://cdn-icons-png.flaticon.com/512/2168/2168281.png"
+          alt="facebook round logo"
+        />
+        <img
+          class="h-9 w-9"
+          src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png"
+          alt="instagram round logo"
+        />
+        <img
+          class="h-9 w-9"
+          src="https://cdn-icons-png.flaticon.com/512/3116/3116491.png"
+          alt="Tik tok round logo"
+        />
+      </div>
 
-        <div>
-            <p class="text-center text-xs pt-6">Copyright &copy; Bogdan Bulakh, 2023</p>
-        </div>
+      <div>
+        <p class="pt-6 text-center text-xs">
+          Copyright &copy; Bogdan Bulakh, 2023
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
