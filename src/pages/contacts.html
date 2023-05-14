@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- build:css -->
+    <link rel="stylesheet" href="/dist/output.css">
+     <!-- endbuild -->
+    <title>Contacts</title>
+</head>
+<body>
+
+    <!-- header  -->
+    <header class="relative">
+
+        <img class="object-cover w-full max-h-96 filter contrast-50" src="https://potokmedia.ru/wp-content/uploads/2021/03/Izobrazhenie-Alexandra-A-life-without-animals-is-not-worth-living-s-sajta-Pixabay.jpg" alt="Old phone image">
+
+        <nav class="flex w-full absolute top-5 justify-between px-4 text-white">
+            <div class="">
+                <h2 class="font-bold">SIMPLE BLOG</h2>
+            </div>
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white sm:hidden cursor-pointer">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>                      
+            </div>
+
+            <div class="hidden md:flex gap-5 font-light">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SAMPLE POST</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </nav>
+
+        <div class="w-full px-3 absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mx-auto">
+            <h1 class="text-3xl md:text-5xl text-center font-bold ">Contact me</h1>
+            <p class="text-center pt-3">Have questions? I have answers!</p>
+        </div>
+    </header>
+
+    <!-- list of articles -->
+
+    <div class="max-w-xs sm:max-w-md mx-auto px-3 flex flex-col justify-center items-center my-10">
+        <p>Want to get in touch?</p>
+        <p class="text-center">Message me and I`ll get back to you as soon as possible</p>
+
+        <form class="w-full pt-5">
+            <fieldset class="flex flex-col w-full">
+                <input class="border-b outline-none py-3" type="text" placeholder="Name">
+                <input class="border-b outline-none py-3" type="email" placeholder="Email">
+                <input class="border-b outline-none py-3" type="text" placeholder="Phone">
+                <input class="border-b outline-none py-3 pb-20" type="text" placeholder="Message">
+            </fieldset>
+        </form>
+    </div>
+
+
+    <!-- button -->
+    <div class="max-w-2xl mx-auto px-4 pb-10 flex justify-around">
+        <button class="px-4 py-3 bg-emerald-500 text-white flex items-center">Send</button>
+    </div>
+
+    <!-- footer  -->
+
+    <footer class="flex flex-col justify-center bg-slate-50 py-10 border-t-2">
+        <div class="flex gap-3 justify-center pt-6">
+            <img class="w-9 h-9" src="https://cdn-icons-png.flaticon.com/512/2168/2168281.png" alt="facebook round logo">
+            <img class="w-9 h-9" src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="instagram round logo">
+            <img class="w-9 h-9" src="https://cdn-icons-png.flaticon.com/512/3116/3116491.png" alt="Tik tok round logo">
+        </div>
+
+        <div>
+            <p class="text-center text-xs pt-6">Copyright &copy; Bogdan Bulakh, 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
